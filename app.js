@@ -78,6 +78,6 @@ app.post("/cadastrarcursos", (req, res) => {
     });
 });
 
-app.listen(process.env.APP_URL, () => {
+app.listen(process.env.PORT || 8080, () => {
     console.log("Servidor iniciado na porta 8080: http://localhost:8080/");
 });
