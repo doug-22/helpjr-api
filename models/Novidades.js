@@ -16,6 +16,10 @@ const Novidades = new mongoose.Schema({
     imagem: {
         type: String,
         required: true
+    },
+    data: {
+        type: String,
+        required: true
     }
 },
 {
